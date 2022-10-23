@@ -89,3 +89,8 @@ git merge feature
 ![](img_14.png)
 ![](img_15.png)
 ![](img_16.png)
+9.  git fsck
+
+    git fsck —lost-found
+    ![](img_17.png)
+    ![](img_18.png)
