@@ -98,3 +98,12 @@ git merge feature
 
     git clean -i
     ![](img_19.png)
+11. git checkout master
+
+    git branch report
+
+    git checkout report
+
+    git checkout report
+    ![](img_20.png)
+    ![](img_21.png)
