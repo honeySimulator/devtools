@@ -29,5 +29,26 @@
    ![](img_7.png)
 4. git log -L 32:prisma/seed.ts
    ![](img_8.png)
+5. npm run test  
+
+   git bisect start
+
+   git bisect bad
+
+   git bisect start
+
+   git bisect good 024877a9
+
+   git bisect bad     
+
+   npm run test  
+
+   git bisect good
+
+   npm run test   
+
+   git bisect bad
+   ![](img_9.png)
+   ![](img_10.png)
 
 
