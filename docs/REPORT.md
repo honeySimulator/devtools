@@ -19,4 +19,12 @@
     ![](img_2.png)
     ![](img_3.png)
     ![](img_4.png)
+3. git log --reflog
+
+   git checkout 1003a0301ea01afe83c562665e829f8c7461c488 
+
+   git branch old-master
+   ![](img_5.png)
+   ![](img_6.png)
+   ![](img_7.png)
 
