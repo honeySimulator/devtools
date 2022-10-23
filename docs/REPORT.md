@@ -27,4 +27,7 @@
    ![](img_5.png)
    ![](img_6.png)
    ![](img_7.png)
+4. git log -L 32:prisma/seed.ts
+   ![](img_8.png)
+
 
