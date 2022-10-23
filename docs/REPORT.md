@@ -50,5 +50,7 @@
    git bisect bad
    ![](img_9.png)
    ![](img_10.png)
-
+6. git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch .env' --prune-empty --tag-name-filter cat -- --all
+   ![](img_11.png)
+   ![](img_12.png)
 
