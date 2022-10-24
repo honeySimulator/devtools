@@ -59,36 +59,36 @@
    ![](img_13.png)
 8. git checkout master
 
-git config --global rerere.enabled true
-
-git rerere status     
-
-git merge feature (возник конфликт)
-
-git checkout feature
-
-git rebase master
-
-git rerere diff
-
-git add README.md
-
-git rerere diff
-
-git commit
-
-git rebase --skip
-
-git checkout master
-
-git rebase feature
-
-git reset —hard HEAD
-
-git merge feature
-![](img_14.png)
-![](img_15.png)
-![](img_16.png)
+    git config --global rerere.enabled true
+    
+    git rerere status     
+    
+    git merge feature (возник конфликт)
+    
+    git checkout feature
+    
+    git rebase master
+    
+    git rerere diff
+    
+    git add README.md
+    
+    git rerere diff
+    
+    git commit
+    
+    git rebase --skip
+    
+    git checkout master
+    
+    git rebase feature
+    
+    git reset —hard HEAD
+    
+    git merge feature
+    ![](img_14.png)
+    ![](img_15.png)
+    ![](img_16.png)
 9.  git fsck
 
     git fsck —lost-found
