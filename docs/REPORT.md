@@ -53,6 +53,7 @@
 6. git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch .env' --prune-empty --tag-name-filter cat -- --all
    ![](img_11.png)
    ![](img_12.png)
+   ![](img_22.png)
 7. git checkout feature
 
    git filter-branch -f --env-filter 'GIT_AUTHOR_NAME=OvsiannikovaOlgaAndreevna GIT_AUTHOR_EMAIL=ovsysha@gmail.com GIT_COMMITTER_NAME=OvsiannikovaOlgaAndreevna GIT_COMMITTER_EMAIL=ovsysha@gmail.com'
